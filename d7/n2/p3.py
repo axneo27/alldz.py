@@ -15,13 +15,18 @@ while True:
             print(d)
         case 2 | "2":
             
-            v = input("Enter value: ")
-            ff = list(d.values())
-            for i in range(len(ff)):
-                if ff[i] == v:
-                    for j in range(len(list(d))):
-                        if d[list(d)[j]] == v:
-                            print(f"{list(d)[j]}: {v}")    
+            try:
+                v = input("Enter value: ")
+                ff = list(d.values())
+                for i in range(len(ff)):
+                    if v not in ff:
+                        raise ValueError
+                    if ff[i] == v:
+                        for j in range(len(list(d))):
+                            if d[list(d)[j]] == v:
+                                print(f"{list(d)[j]}: {v}")
+            except ValueError:
+                print("Not found")   
 
         case 3 | "3":
             try: 

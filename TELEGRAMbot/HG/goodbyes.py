@@ -1,0 +1,22 @@
+goodbyes = [
+    "Goodbye",
+    "Farewell",
+    "See you later",
+    "Take care",
+    "Bye",
+    "Catch you later",
+    "Adios",
+    "Au revoir",
+    "Sayonara",
+    "Ciao",
+    "Auf Wiedersehen",
+    "Until next time",
+    "Peace out",
+    "Later",
+    "Take it easy",
+    "Godspeed",
+    "Toodle-oo",
+    "So long",
+    "Cheerio",
+    "Bon voyage"
+]
